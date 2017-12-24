@@ -9,15 +9,8 @@ binance.options({
   APISECRET: binanceInfo.apisecret
 });
 
-function fetchBalances() {
-  let walletBalances;
-  ASQ(function(done) {
-    binance.balance(function(balances) {
-      done((walletBalances = JSON.parse(balances)));
-    });
-  }).then(function(_, _) {
-    return walletBalances;
-  });
-}
+binance.balance(function(balances) {
+  console.log(JSON.stringify(balances));
+});
 
-module.exports.fetchBalances = fetchBalances();
+//module.exports.fetchBalances = fetchBalances();
