@@ -37,4 +37,4 @@ function splitCoins(data, average) {
   return splitCoins;
 }
 
-module.exports.splitCoins = splitCoins;
+module.exports.split = splitCoins;
