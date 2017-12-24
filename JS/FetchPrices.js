@@ -16,4 +16,4 @@ function fetchPrices() {
   });
 }
 
-module.exports.fetchPrices = fetchPrices;
+module.exports.fetch = fetchPrices;
