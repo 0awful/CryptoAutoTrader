@@ -1,0 +1,11 @@
+{
+  "name": "autotrade",
+  "version": "1.0.0",
+  "description": "autotrading algo",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "asynquence": "^0.10.2",
+    "node-binance-api": "^0.2.11"
+  }
+}
