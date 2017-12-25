@@ -2,8 +2,8 @@ function splitCoins(data, average) {
   let keys = Object.keys(data);
 
   let splitCoins = {
-    high: {},
-    low: {}
+    high: [],
+    low: []
   };
 
   for (var i = 0; i < keys.length; i++) {
@@ -18,7 +18,7 @@ function splitCoins(data, average) {
         price: priceToSell
       };
 
-      splitCoins.high[keys[i]] = node;
+      splitCoins.high.push(node);
     } else {
       let shortage = average - data[keys[i]].balanceBTC.bid;
       let priceToBuy = data[keys[i]].price.bid;
@@ -30,7 +30,7 @@ function splitCoins(data, average) {
         price: priceToBuy
       };
 
-      splitCoins.low[keys[i]] = node;
+      splitCoins.low.push(node);
     }
   }
 

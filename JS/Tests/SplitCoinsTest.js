@@ -9,7 +9,7 @@ const expectedResult = JSON.parse(
 );
 
 // this is the average should probably be in a file that can be updated to fix multiple tests
-let result = splitCoins.splitCoins(input, 0.000005432392056818183);
+let result = splitCoins.split(input, 0.000005432392056818183);
 
 // This should be uncommented whenever you need to update the results for the next test
 // console.log(JSON.stringify(result));
