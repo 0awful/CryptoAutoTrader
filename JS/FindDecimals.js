@@ -13,3 +13,5 @@ function findDecimals(x) {
     return decimals + findDecimals(x * 10);
   }
 }
+
+module.exports.find = findDecimals;
