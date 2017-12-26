@@ -3,6 +3,7 @@ const prices = require('./FetchPrices');
 const normalize = require('./NormalizeData');
 const average = require('./AverageData');
 const splitCoins = require('./SplitCoins');
+const orders = require('./CreateOrders');
 
 let walletBalances;
 let walletPrices;
@@ -14,15 +15,16 @@ balances
   .fetch()
   .then(function(wallets) {
     walletBalances = JSON.parse(wallets);
-    console.log(walletBalances);
+
     return prices.fetch();
   })
   .then(function(prices) {
     walletPrices = JSON.parse(prices);
-    console.log(walletPrices);
+
+    // why am I using pomises here?
     return new Promise(function(resolve, reject) {
       normalizedData = normalize.normalizeData(walletBalances, walletPrices);
-      console.log(normalizedData);
+
       resolve(normalizedData);
     });
   })
@@ -39,10 +41,45 @@ balances
     });
   })
   .then(function() {
-    // sell some coins
-    console.log(split);
-  });
-// buy some coins
-// wait
+    console.log('Creating sell orders');
 
-// repeat
+    return new Promise(function(resolve, reject) {
+      let promises = split.high.map(
+        item =>
+          new Promise(function(resolve, reject) {
+            setTimeout(function() {
+              orders.sell(item.name, item.coins, item.price).then(function() {
+                resolve();
+              });
+            }, 1000 + 200 * split.high.indexOf(item));
+          })
+      );
+      Promise.all(promises).then(function() {
+        console.log('All sell orders have resolved');
+        resolve();
+      });
+    });
+  })
+  .then(function() {
+    console.log('Creating buy orders');
+
+    return new Promise(function(resolve, reject) {
+      let promises = split.low.map(
+        item =>
+          new Promise(function(resolve, reject) {
+            setTimeout(function() {
+              orders.buy(item.name, item.coins, item.price).then(function() {
+                resolve();
+              });
+            }, 1000 + 200 * split.low.indexOf(item));
+          })
+      );
+      Promise.all(promises).then(function() {
+        console.log('All buy orders have resolved');
+        resolve();
+      });
+    });
+  })
+  .then(function() {
+    console.log('finished successfully');
+  });
