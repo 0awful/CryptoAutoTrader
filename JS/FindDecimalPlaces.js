@@ -1,3 +1,5 @@
+// used in determining when to round when inputting prices. If they every have a non-one step size this breaks entirely. Should be refactored
+
 function findDecimals(x) {
   let decimals = 0;
 
@@ -11,12 +13,3 @@ function findDecimals(x) {
     return decimals + findDecimals(x * 10);
   }
 }
-
-console.log(findDecimals(1));
-console.log(findDecimals(10));
-console.log(findDecimals(100));
-console.log(findDecimals(0.1));
-console.log(findDecimals(0.01));
-console.log(findDecimals(0.001));
-console.log(findDecimals(0.0001));
-
