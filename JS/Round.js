@@ -8,6 +8,7 @@ function round(num, dec) {
   if (dec === 0) {
     return num;
   } else if (dec > 0) {
+    //TODO: FIX THIS FUNCTION
     return Math.floor(num / Math.pow(10, dec)) * Math.pow(10, dec);
   } else {
     return Number(num.toFixed(Math.abs(dec)));
@@ -15,4 +16,3 @@ function round(num, dec) {
 }
 
 module.exports.round = round;
-
