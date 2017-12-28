@@ -3,10 +3,12 @@ const balances = require('./FetchBalances');
 const prices = require('./FetchPrices');
 const exchange = require('./FetchExchangeInfo');
 
-const normalize = require('./Normalize.js');
+const normalize = require('./Normalize');
 const average = require('./AverageData');
 const splitCoins = require('./SplitCoins');
 const orders = require('./CreateOrders');
+const round = require('./Round');
+const decimals = require('./FindDecimals');
 
 let walletBalances;
 let walletPrices;
@@ -44,7 +46,12 @@ Promise.all(fetchArray)
         item =>
           new Promise(function(resolve, reject) {
             setTimeout(function() {
-              orders.sell(item.name, item.coins, item.price).then(function() {
+              let quantity = round.round(
+                item.coins,
+                decimals.find(item.info.LOT_SIZE.stepSize)
+              );
+
+              orders.sell(item.name, quantity, item.price).then(function() {
                 resolve();
               });
             }, 1000 + 200 * split.high.indexOf(item));
@@ -62,7 +69,11 @@ Promise.all(fetchArray)
         item =>
           new Promise(function(resolve, reject) {
             setTimeout(function() {
-              orders.buy(item.name, item.coins, item.price).then(function() {
+              let quantity = round.round(
+                item.coins,
+                decimals.find(item.info.LOT_SIZE.stepSize)
+              );
+              orders.buy(item.name, quantity, item.price).then(function() {
                 resolve();
               });
             }, 1000 + 200 * split.low.indexOf(item));

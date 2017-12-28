@@ -1,3 +1,5 @@
+//TODO: FUCK CANCER SHOUT OUT TO BOOSIE
+
 function splitCoins(data, average) {
   let keys = Object.keys(data);
 
@@ -15,7 +17,8 @@ function splitCoins(data, average) {
       let node = {
         name: keys[i],
         coins: coinsToSell,
-        price: priceToSell
+        price: priceToSell,
+        info: data[keys[i]].info
       };
 
       splitCoins.high.push(node);
@@ -27,7 +30,8 @@ function splitCoins(data, average) {
       let node = {
         name: keys[i],
         coins: coinsToBuy,
-        price: priceToBuy
+        price: priceToBuy,
+        info: data[keys[i]].info
       };
 
       splitCoins.low.push(node);
