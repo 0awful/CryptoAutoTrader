@@ -9,8 +9,10 @@ binance.options({
 });
 
 function fetchBalances() {
+  console.log('fetch balances called');
   return new Promise(function(resolve, reject) {
     binance.balance(function(balances) {
+      console.log('fetch balances returned');
       resolve(JSON.stringify(balances));
     });
   });

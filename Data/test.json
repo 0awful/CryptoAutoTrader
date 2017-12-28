@@ -1,0 +1,4124 @@
+{
+  "123456": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00100000",
+      "maxQty": "100000.00000000",
+      "stepSize": "0.00100000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "ETHBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00100000",
+      "maxQty": "100000.00000000",
+      "stepSize": "0.00100000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "LTCBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "100000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "BNBBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "100000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "NEOBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "100000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "QTUMETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "EOSETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "SNTETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "BNTETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "BCCBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00100000",
+      "maxQty": "100000.00000000",
+      "stepSize": "0.00100000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "GASBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "100000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "BNBETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "BTCUSDT": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.01000000",
+      "maxPrice": "10000000.00000000",
+      "tickSize": "0.01000000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00000100",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00000100"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "ETHUSDT": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.01000000",
+      "maxPrice": "10000000.00000000",
+      "tickSize": "0.01000000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00001000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00001000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "HSRBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "OAXETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "DNTETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "MCOETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "ICNETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "MCOBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "WTCBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "WTCETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "LRCBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "LRCETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "QTUMBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "YOYOBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "OMGBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "OMGETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "ZRXBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "ZRXETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "STRATBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "STRATETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "SNGLSBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "SNGLSETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "BQXBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "BQXETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "KNCBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "KNCETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "FUNBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "FUNETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "SNMBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "SNMETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "NEOETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "IOTABTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "IOTAETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "LINKBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "LINKETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "XVGBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "XVGETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "CTRBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "CTRETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "SALTBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "SALTETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "MDABTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "MDAETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "MTLBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "MTLETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "SUBBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "SUBETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "EOSBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "SNTBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "ETCETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "ETCBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "MTHBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "MTHETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "ENGBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "ENGETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "DNTBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "ZECBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00100000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00100000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "ZECETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00100000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00100000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "BNTBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "ASTBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "ASTETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "DASHBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00100000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00100000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "DASHETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00100000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00100000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "OAXBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "ICNBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "BTGBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "BTGETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "EVXBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "EVXETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "REQBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "REQETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "VIBBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "VIBETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "HSRETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "TRXBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "TRXETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "POWRBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "POWRETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "ARKBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "ARKETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "YOYOETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "XRPBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "XRPETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "MODBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "MODETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "ENJBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "ENJETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "STORJBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "STORJETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "BNBUSDT": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00010000",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00010000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "VENBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00010000",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00010000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "YOYOBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "POWRBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "VENBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "VENETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "KMDBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "KMDETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "NULSBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "RCNBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "RCNETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "RCNBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "NULSBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "NULSETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "RDNBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "RDNETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "RDNBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "XMRBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00100000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00100000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "XMRETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00100000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00100000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "DLTBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "WTCBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00010000",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00010000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "DLTBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "DLTETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "AMBBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "AMBETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "AMBBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "BCCETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00100000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00100000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "BCCUSDT": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.01000000",
+      "maxPrice": "10000000.00000000",
+      "tickSize": "0.01000000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00001000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00001000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "BCCBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.01000000",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.01000000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00001000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00001000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "BATBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "BATETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "BATBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "BCPTBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "BCPTETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "BCPTBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "ARNBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "ARNETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "GVTBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "GVTETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "CDTBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "CDTETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "GXSBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "GXSETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "NEOUSDT": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00100000",
+      "maxPrice": "10000000.00000000",
+      "tickSize": "0.00100000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00100000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00100000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "NEOBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00100000",
+      "maxPrice": "10000000.00000000",
+      "tickSize": "0.00100000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00100000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00100000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "POEBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "POEETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "QSPBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "QSPETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "QSPBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "BTSBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "BTSETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "BTSBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "XZCBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "XZCETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "XZCBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00100000",
+      "maxPrice": "10000000.00000000",
+      "tickSize": "0.00100000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00100000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00100000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "LSKBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "LSKETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "LSKBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00010000",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00010000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "TNTBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "TNTETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "FUELBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "FUELETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "MANABTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "MANAETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "BCDBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00100000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00100000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "BCDETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00100000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00100000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "DGDBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00100000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00100000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "DGDETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00100000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00100000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "IOTABNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "ADXBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "ADXETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "ADXBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "ADABTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "ADAETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "PPTBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "PPTETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "CMTBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "CMTETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "CMTBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "XLMBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "XLMETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "XLMBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "CNDBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "CNDETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "CNDBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "LENDBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "LENDETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "LENDBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "WABIBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "WABIETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "WABIBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "LTCETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00100000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00100000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "LTCUSDT": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.01000000",
+      "maxPrice": "10000000.00000000",
+      "tickSize": "0.01000000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00001000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00001000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "LTCBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.01000000",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.01000000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.00001000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.00001000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "TNBBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "TNBETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "WAVESBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "WAVESETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "WAVESBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00010000",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00010000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "GTOBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "GTOETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "GTOBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "ICXBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "ICXETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "ICXBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "OSTBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "OSTETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "OSTBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "ELFBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "ELFETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "AIONBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "AIONETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "AIONBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "NEBLBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "NEBLETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "NEBLBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "BRDBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "BRDETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "BRDBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "MCOBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  },
+  "EDOBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "EDOETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "WINGSBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000001",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000001"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "WINGSETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "1.00000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "1.00000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "NAVBTC": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000010",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000010"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.00100000"
+    }
+  },
+  "NAVETH": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00000100",
+      "maxPrice": "100000.00000000",
+      "tickSize": "0.00000100"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "90000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "0.01000000"
+    }
+  },
+  "NAVBNB": {
+    "PRICE_FILTER": {
+      "filterType": "PRICE_FILTER",
+      "minPrice": "0.00001000",
+      "maxPrice": "10000.00000000",
+      "tickSize": "0.00001000"
+    },
+    "LOT_SIZE": {
+      "filterType": "LOT_SIZE",
+      "minQty": "0.01000000",
+      "maxQty": "10000000.00000000",
+      "stepSize": "0.01000000"
+    },
+    "MIN_NOTIONAL": {
+      "filterType": "MIN_NOTIONAL",
+      "minNotional": "1.00000000"
+    }
+  }
+}
