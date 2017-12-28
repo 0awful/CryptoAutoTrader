@@ -8,11 +8,12 @@ binance.options({
   APISECRET: binanceInfo.apisecret
 });
 
+// TODO: refactor this to not do data manipulation.
 function fetch() {
   console.log('Fetch Exchange Info called');
+  let returnable = {};
   let promise = new Promise(function(resolve, reject) {
     binance.exchangeInfo(function(response) {
-      let returnable = {};
       for (let i = 0; i < response.symbols.length; i++) {
         let node = response.symbols[i];
         let filters = {};
@@ -22,10 +23,9 @@ function fetch() {
         }
         returnable[node.symbol] = filters;
       }
-      console.log('fetch Exchange info returned');
-      let parsed = JSON.parse(returnable);
-      console.log(parsed, 'returned');
-      resolve(parsed);
+      console.log('Fetch Exchange Info returned');
+
+      resolve(returnable);
     });
   });
 

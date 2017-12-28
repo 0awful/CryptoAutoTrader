@@ -18,20 +18,14 @@ function normalize(balances, prices, info) {
       info[balanceKeys[i]]
     ) {
       key = 'BTC';
-      console.log(key);
       infoNode = info[key];
-      console.log(infoNode);
       priceNode['bid'] = prices[key].bid;
       priceNode['ask'] = ask[key].ask;
-      console.log(priceNode);
     } else if (prices[balanceKeys[i] + 'BTC'] && info[balanceKeys[i] + 'BTC']) {
       key = balanceKeys[i] + 'BTC';
-      console.log(key);
       infoNode = info[key];
-      console.log(infoNode);
       priceNode['bid'] = prices[key].bid;
       priceNode['ask'] = prices[key].ask;
-      console.log(priceNode);
     } else {
       continue;
     }

@@ -13,7 +13,7 @@ function fetchPrices() {
   return new Promise(function(resolve, reject) {
     binance.bookTickers(function(ticker) {
       console.log('fetch prices returned');
-      resolve(JSON.stringify(ticker));
+      resolve(ticker);
     });
   });
 }

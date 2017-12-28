@@ -13,7 +13,7 @@ function fetchBalances() {
   return new Promise(function(resolve, reject) {
     binance.balance(function(balances) {
       console.log('fetch balances returned');
-      resolve(JSON.stringify(balances));
+      resolve(balances);
     });
   });
 }

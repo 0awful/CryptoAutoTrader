@@ -17,7 +17,7 @@ const expectedResult = JSON.parse(
 let testedResult = normalize.normalize(balances, prices, info);
 
 //Update snapshot by copying this to the NormalizedData file
-console.log(JSON.stringify(testedResult));
+// console.log(JSON.stringify(testedResult));
 
 if (JSON.stringify(testedResult) === JSON.stringify(expectedResult)) {
   console.log('Normalize is passing tests');
