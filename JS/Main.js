@@ -9,6 +9,7 @@ const splitCoins = require('./SplitCoins');
 const orders = require('./CreateOrders');
 const round = require('./Round');
 const decimals = require('./FindDecimals');
+const filters = require('./OrderFilters');
 
 let walletBalances;
 let walletPrices;
@@ -46,14 +47,25 @@ Promise.all(fetchArray)
         item =>
           new Promise(function(resolve, reject) {
             setTimeout(function() {
-              let quantity = round.round(
-                item.coins,
-                decimals.find(item.info.LOT_SIZE.stepSize)
+              let quantity = item.coins.toFixed(
+                Math.abs(decimals.find(item.info.LOT_SIZE.stepSize))
               );
 
-              orders.sell(item.name, quantity).then(function() {
+              if (
+                filters.lotSize(item.info.LOT_SIZE, quantity) &&
+                filters.minNotional(
+                  item.info.MIN_NOTIONAL,
+                  quantity,
+                  item.price
+                )
+              ) {
+                orders.sell(item.name, quantity).then(function() {
+                  resolve();
+                });
+              } else {
+                console.log(item.name, 'failed');
                 resolve();
-              });
+              }
             }, 1000 + 200 * split.high.indexOf(item));
           })
       );
@@ -69,13 +81,25 @@ Promise.all(fetchArray)
         item =>
           new Promise(function(resolve, reject) {
             setTimeout(function() {
-              let quantity = round.round(
-                item.coins,
-                decimals.find(item.info.LOT_SIZE.stepSize)
+              let quantity = item.coins.toFixed(
+                Math.abs(decimals.find(item.info.LOT_SIZE.stepSize))
               );
-              orders.buy(item.name, quantity).then(function() {
+
+              if (
+                filters.lotSize(item.info.LOT_SIZE, quantity) &&
+                filters.minNotional(
+                  item.info.MIN_NOTIONAL,
+                  quantity,
+                  item.price
+                )
+              ) {
+                orders.buy(item.name, quantity).then(function() {
+                  resolve();
+                });
+              } else {
+                console.log(item.name, 'failed');
                 resolve();
-              });
+              }
             }, 1000 + 200 * split.low.indexOf(item));
           })
       );

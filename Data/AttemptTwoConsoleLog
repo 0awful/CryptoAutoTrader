@@ -1,0 +1,806 @@
+fetch balances called
+fetch prices called
+Fetch Exchange Info called
+fetch balances returned
+fetch prices returned
+Fetch Exchange Info returned
+Normalizing
+Normalize Called
+Averaging
+Splitting coins
+Too small of quantity
+ETHBTC failed
+Quantity does not match a legal step
+NEOBTC failed
+Min nominal value not met
+GASBTC failed
+Too small of quantity
+BCCBTC failed
+Too small of quantity
+HSRBTC failed
+Quantity does not match a legal step
+OMGBTC failed
+Too small of quantity
+ETCBTC failed
+Min nominal value not met
+ZECBTC failed
+Min nominal value not met
+DGDBTC failed
+Too small of quantity
+DASHBTC failed
+Too small of quantity
+BTGBTC failed
+Quantity does not match a legal step
+ARKBTC failed
+Quantity does not match a legal step
+KMDBTC failed
+Quantity does not match a legal step
+EDOBTC failed
+Min nominal value not met
+GVTBTC failed
+Too small of quantity
+XZCBTC failed
+Min nominal value not met
+LSKBTC failed
+Quantity does not match a legal step
+WAVESBTC failed
+Too small of quantity
+ICXBTC failed
+Quantity does not match a legal step
+AIONBTC failed
+Quantity does not match a legal step
+NEBLBTC failed
+Quantity does not match a legal step
+TRIGBTC failed
+All sell orders have resolved
+Too small of quantity
+LTCBTC failed
+Too small of quntity
+BNBBTC failed
+Too small of quantity
+QTUMBTC failed
+creating buy order with the following paramaters: EOSBTC 2
+creating buy order with the following paramaters: SNTBTC 113
+creating buy order with the following paramaters: BNTBTC 4
+creating buy order with the following paramaters: OAXBTC 24
+creating buy order with the following paramaters: DNTBTC 159
+{ symbol: 'EOSBTC',
+  orderId: 8362137,
+  clientOrderId: 'Ed2k1hE6BoLT62BtS5cVsu',
+  transactTime: 1514591129325,
+  price: '0.00000000',
+  origQty: '2.00000000',
+  executedQty: '2.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'EOSBTC'
+Quantity does not match a legal step
+MCOBTC failed
+creating buy order with the following paramaters: ICNBTC 9
+{ symbol: 'SNTBTC',
+  orderId: 4304864,
+  clientOrderId: 'aeW9G3gEbTdh4PqenN5hWt',
+  transactTime: 1514591129554,
+  price: '0.00000000',
+  origQty: '113.00000000',
+  executedQty: '113.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'SNTBTC'
+{ symbol: 'BNTBTC',
+  orderId: 4384137,
+  clientOrderId: 'rEPV06Gepk32yVqgGlVE7o',
+  transactTime: 1514591129554,
+  price: '0.00000000',
+  origQty: '4.00000000',
+  executedQty: '4.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'BNTBTC'
+creating buy order with the following paramaters: ZRXBTC 28
+{ symbol: 'OAXBTC',
+  orderId: 2632406,
+  clientOrderId: 'pbbp56Y9dDY5AGN9uMImCW',
+  transactTime: 1514591129945,
+  price: '0.00000000',
+  origQty: '24.00000000',
+  executedQty: '24.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'OAXBTC'
+creating buy order with the following paramaters: WTCBTC 2
+{ symbol: 'DNTBTC',
+  orderId: 3605399,
+  clientOrderId: '7aKBT7ihLHKMpmfdlXvbEL',
+  transactTime: 1514591130133,
+  price: '0.00000000',
+  origQty: '159.00000000',
+  executedQty: '159.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'DNTBTC'
+creating buy order with the following paramaters: YOYOBTC 67
+{ symbol: 'ICNBTC',
+  orderId: 2233683,
+  clientOrderId: '1obUe6WbgB02YlLEbO7CBZ',
+  transactTime: 1514591130343,
+  price: '0.00000000',
+  origQty: '9.00000000',
+  executedQty: '9.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'ICNBTC'
+{ symbol: 'ZRXBTC',
+  orderId: 4506776,
+  clientOrderId: 'CMj3ymSzBukS8Xx3jJDyAh',
+  transactTime: 1514591130533,
+  price: '0.00000000',
+  origQty: '28.00000000',
+  executedQty: '28.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'ZRXBTC'
+creating buy order with the following paramaters: LRCBTC 50
+{ symbol: 'WTCBTC',
+  orderId: 6941657,
+  clientOrderId: '9QUqtc8kl44k3B0z4gpiGu',
+  transactTime: 1514591130684,
+  price: '0.00000000',
+  origQty: '2.00000000',
+  executedQty: '2.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'WTCBTC'
+creating buy order with the following paramaters: TRXBTC 546
+{ symbol: 'YOYOBTC',
+  orderId: 3246236,
+  clientOrderId: '27XihGpMKoM7rUWKAxg4AB',
+  transactTime: 1514591130905,
+  price: '0.00000000',
+  origQty: '67.00000000',
+  executedQty: '67.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'YOYOBTC'
+Too small of quntity
+SNGLSBTC failed
+{ symbol: 'LRCBTC',
+  orderId: 3095517,
+  clientOrderId: '26MxjXzBTag2eHJFTT9PSi',
+  transactTime: 1514591131067,
+  price: '0.00000000',
+  origQty: '50.00000000',
+  executedQty: '50.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'LRCBTC'
+Quantity does not match a legal step
+STRATBTC failed
+{ symbol: 'TRXBTC',
+  orderId: 5109908,
+  clientOrderId: 'Qx5DQPbBXja4UZykDRFgU7',
+  transactTime: 1514591131296,
+  price: '0.00000000',
+  origQty: '546.00000000',
+  executedQty: '546.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'TRXBTC'
+creating buy order with the following paramaters: BQXBTC 7
+creating buy order with the following paramaters: FUNBTC 328
+creating buy order with the following paramaters: KNCBTC 8
+{ symbol: 'BQXBTC',
+  orderId: 3880520,
+  clientOrderId: 'fmWEELNIehMz7BZV0mdXJa',
+  transactTime: 1514591131865,
+  price: '0.00000000',
+  origQty: '7.00000000',
+  executedQty: '7.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'BQXBTC'
+creating buy order with the following paramaters: CDTBTC 143
+{ symbol: 'FUNBTC',
+  orderId: 3599662,
+  clientOrderId: 'ik6NxhpbWVTXs640lhguVX',
+  transactTime: 1514591132102,
+  price: '0.00000000',
+  origQty: '328.00000000',
+  executedQty: '328.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'FUNBTC'
+creating buy order with the following paramaters: XVGBTC 123
+creating buy order with the following paramaters: IOTABTC 5
+{ symbol: 'KNCBTC',
+  orderId: 4500806,
+  clientOrderId: '6me4hhWlBAQ74PWZqcJJeQ',
+  transactTime: 1514591132315,
+  price: '0.00000000',
+  origQty: '8.00000000',
+  executedQty: '8.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'KNCBTC'
+creating buy order with the following paramaters: SNMBTC 51
+{ symbol: 'CDTBTC',
+  orderId: 1763272,
+  clientOrderId: 'EBrT5gYlarwZGMUuAv9cvD',
+  transactTime: 1514591132534,
+  price: '0.00000000',
+  origQty: '143.00000000',
+  executedQty: '143.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'CDTBTC'
+creating buy order with the following paramaters: LINKBTC 40
+{ symbol: 'XVGBTC',
+  orderId: 6534853,
+  clientOrderId: 'bW5Mepuj8DUOo6xPnxZw8f',
+  transactTime: 1514591132714,
+  price: '0.00000000',
+  origQty: '123.00000000',
+  executedQty: '123.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'XVGBTC'
+creating buy order with the following paramaters: TNTBTC 126
+{ symbol: 'IOTABTC',
+  orderId: 11088513,
+  clientOrderId: '2d2oPqiEgObo00gm23rsXZ',
+  transactTime: 1514591132934,
+  price: '0.00000000',
+  origQty: '5.00000000',
+  executedQty: '5.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'IOTABTC'
+{ symbol: 'SNMBTC',
+  orderId: 3722689,
+  clientOrderId: 'L9fUIcnqLwdNNdXWiMR5KK',
+  transactTime: 1514591133101,
+  price: '0.00000000',
+  origQty: '51.00000000',
+  executedQty: '51.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'SNMBTC'
+creating buy order with the following paramaters: CTRBTC 9
+{ symbol: 'LINKBTC',
+  orderId: 5061512,
+  clientOrderId: 'yWxqB7p9IPoGsVzwUdVIMn',
+  transactTime: 1514591133280,
+  price: '0.00000000',
+  origQty: '40.00000000',
+  executedQty: '40.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'LINKBTC'
+creating buy order with the following paramaters: MDABTC 10
+{ symbol: 'TNTBTC',
+  orderId: 1977106,
+  clientOrderId: '1QNEoyYDLFgHtYDLOEh5Vh',
+  transactTime: 1514591133517,
+  price: '0.00000000',
+  origQty: '126.00000000',
+  executedQty: '126.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'TNTBTC'
+Quantity does not match a legal step
+MTLBTC failed
+{ symbol: 'CTRBTC',
+  orderId: 4455193,
+  clientOrderId: 'rABQgZGfMOcanHugnKdQJL',
+  transactTime: 1514591133675,
+  price: '0.00000000',
+  origQty: '9.00000000',
+  executedQty: '9.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'CTRBTC'
+Quantity does not match a legal step
+SALTBTC failed
+{ symbol: 'MDABTC',
+  orderId: 4425678,
+  clientOrderId: '71yGiRso8ESpCoVn5NvC7N',
+  transactTime: 1514591133917,
+  price: '0.00000000',
+  origQty: '10.00000000',
+  executedQty: '10.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'MDABTC'
+creating buy order with the following paramaters: NULSBTC 9
+creating buy order with the following paramaters: SUBBTC 17
+creating buy order with the following paramaters: MTHBTC 72
+creating buy order with the following paramaters: ADXBTC 7
+{ symbol: 'NULSBTC',
+  orderId: 3169256,
+  clientOrderId: '1Kamxv1BTjiGtNg0Sk59tV',
+  transactTime: 1514591134536,
+  price: '0.00000000',
+  origQty: '9.00000000',
+  executedQty: '9.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'NULSBTC'
+{ symbol: 'SUBBTC',
+  orderId: 3750059,
+  clientOrderId: '2OgLcaBXOMBmBn2RnywIbP',
+  transactTime: 1514591134714,
+  price: '0.00000000',
+  origQty: '17.00000000',
+  executedQty: '17.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'SUBBTC'
+creating buy order with the following paramaters: ENGBTC 8
+{ symbol: 'MTHBTC',
+  orderId: 3296992,
+  clientOrderId: '9o08q3sbv9T4zitzrSVekR',
+  transactTime: 1514591134878,
+  price: '0.00000000',
+  origQty: '72.00000000',
+  executedQty: '72.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'MTHBTC'
+creating buy order with the following paramaters: ASTBTC 46
+{ symbol: 'ADXBTC',
+  orderId: 2153004,
+  clientOrderId: 'is3aFpjqgOJnzo0JTUjyCG',
+  transactTime: 1514591135075,
+  price: '0.00000000',
+  origQty: '7.00000000',
+  executedQty: '7.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'ADXBTC'
+creating buy order with the following paramaters: BATBTC 50
+{ symbol: 'ENGBTC',
+  orderId: 3964303,
+  clientOrderId: 'velAfxJXHbPFCcfbb9Wcf1',
+  transactTime: 1514591135317,
+  price: '0.00000000',
+  origQty: '8.00000000',
+  executedQty: '8.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'ENGBTC'
+creating buy order with the following paramaters: POWRBTC 20
+creating buy order with the following paramaters: REQBTC 55
+{ symbol: 'ASTBTC',
+  orderId: 3550964,
+  clientOrderId: 'KErbD6U30sIINxMJI9to5u',
+  transactTime: 1514591135573,
+  price: '0.00000000',
+  origQty: '46.00000000',
+  executedQty: '46.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'ASTBTC'
+Too small of quantity
+XMRBTC failed
+{ symbol: 'BATBTC',
+  orderId: 2858677,
+  clientOrderId: 'leGYwWIVIaXfaegO5YIckR',
+  transactTime: 1514591135736,
+  price: '0.00000000',
+  origQty: '50.00000000',
+  executedQty: '50.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'BATBTC'
+{ symbol: 'POWRBTC',
+  orderId: 5428724,
+  clientOrderId: 'LidwiwbaWbDTNTvUs3wnQ3',
+  transactTime: 1514591135888,
+  price: '0.00000000',
+  origQty: '20.00000000',
+  executedQty: '20.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'POWRBTC'
+creating buy order with the following paramaters: EVXBTC 10
+{ symbol: 'REQBTC',
+  orderId: 3367428,
+  clientOrderId: 'TNEq42nt1cFbFDMlQybRJ8',
+  transactTime: 1514591136107,
+  price: '0.00000000',
+  origQty: '55.00000000',
+  executedQty: '55.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'REQBTC'
+creating buy order with the following paramaters: VIBBTC 46
+creating buy order with the following paramaters: ENJBTC 116
+{ symbol: 'EVXBTC',
+  orderId: 3361474,
+  clientOrderId: 'frgOsKp5XQQNzzIOrDtoEB',
+  transactTime: 1514591136462,
+  price: '0.00000000',
+  origQty: '10.00000000',
+  executedQty: '10.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'EVXBTC'
+creating buy order with the following paramaters: VENBTC 8
+creating buy order with the following paramaters: XRPBTC 10
+{ symbol: 'VIBBTC',
+  orderId: 3280683,
+  clientOrderId: 'O9cB8iQkB4B6BRdxHdt4IM',
+  transactTime: 1514591136734,
+  price: '0.00000000',
+  origQty: '46.00000000',
+  executedQty: '46.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'VIBBTC'
+{ symbol: 'ENJBTC',
+  orderId: 2027178,
+  clientOrderId: '149k3BCesxgkkxICQaJhti',
+  transactTime: 1514591136896,
+  price: '0.00000000',
+  origQty: '116.00000000',
+  executedQty: '116.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'ENJBTC'
+Quantity does not match a legal step
+MODBTC failed
+{ symbol: 'VENBTC',
+  orderId: 3405245,
+  clientOrderId: 'xxioox1ESJXBDUdVfA4qyJ',
+  transactTime: 1514591137109,
+  price: '0.00000000',
+  origQty: '8.00000000',
+  executedQty: '8.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'VENBTC'
+creating buy order with the following paramaters: STORJBTC 11
+{ symbol: 'XRPBTC',
+  orderId: 8752923,
+  clientOrderId: 'QS56SOskZgXQyGJrZ3YXXZ',
+  transactTime: 1514591137307,
+  price: '0.00000000',
+  origQty: '10.00000000',
+  executedQty: '10.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'XRPBTC'
+creating buy order with the following paramaters: RCNBTC 47
+creating buy order with the following paramaters: DLTBTC 44
+creating buy order with the following paramaters: MANABTC 217
+{ symbol: 'STORJBTC',
+  orderId: 3766353,
+  clientOrderId: 'MaroKgkaRSfOTUaTUYiJPS',
+  transactTime: 1514591137723,
+  price: '0.00000000',
+  origQty: '11.00000000',
+  executedQty: '11.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'STORJBTC'
+Min nominal value not met
+PPTBTC failed
+{ symbol: 'RCNBTC',
+  orderId: 3388520,
+  clientOrderId: 'yjJRLI5XSfFKS0g4PH0PRm',
+  transactTime: 1514591137916,
+  price: '0.00000000',
+  origQty: '47.00000000',
+  executedQty: '47.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'RCNBTC'
+creating buy order with the following paramaters: RDNBTC 4
+{ symbol: 'DLTBTC',
+  orderId: 2077916,
+  clientOrderId: '9enmzEFWtkI6aX1t5fe8zT',
+  transactTime: 1514591138186,
+  price: '0.00000000',
+  origQty: '44.00000000',
+  executedQty: '44.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'DLTBTC'
+Quantity does not match a legal step
+GXSBTC failed
+{ symbol: 'MANABTC',
+  orderId: 1589766,
+  clientOrderId: 'CCDAARTZlNQ7iYmFsVffxk',
+  transactTime: 1514591138377,
+  price: '0.00000000',
+  origQty: '217.00000000',
+  executedQty: '217.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'MANABTC'
+creating buy order with the following paramaters: AMBBTC 36
+creating buy order with the following paramaters: ARNBTC 24
+{ symbol: 'RDNBTC',
+  orderId: 3340867,
+  clientOrderId: 'ooQgW66uIlz6j8b53xhc6k',
+  transactTime: 1514591138733,
+  price: '0.00000000',
+  origQty: '4.00000000',
+  executedQty: '4.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'RDNBTC'
+creating buy order with the following paramaters: BCPTBTC 43
+creating buy order with the following paramaters: CNDBTC 257
+{ symbol: 'AMBBTC',
+  orderId: 2067020,
+  clientOrderId: 'wD1sGEu8z7MzTlId2nKeEd',
+  transactTime: 1514591139117,
+  price: '0.00000000',
+  origQty: '36.00000000',
+  executedQty: '36.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'AMBBTC'
+creating buy order with the following paramaters: POEBTC 320
+{ symbol: 'ARNBTC',
+  orderId: 2870012,
+  clientOrderId: 'TPY7lTpb5bBmaPqdevrLXv',
+  transactTime: 1514591139336,
+  price: '0.00000000',
+  origQty: '24.00000000',
+  executedQty: '24.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'ARNBTC'
+creating buy order with the following paramaters: BTSBTC 35
+{ symbol: 'BCPTBTC',
+  orderId: 1941126,
+  clientOrderId: 'diTSjUFCCX4oi3t33mhIbk',
+  transactTime: 1514591139505,
+  price: '0.00000000',
+  origQty: '43.00000000',
+  executedQty: '43.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'BCPTBTC'
+creating buy order with the following paramaters: FUELBTC 133
+{ symbol: 'CNDBTC',
+  orderId: 1248903,
+  clientOrderId: 'QTQh3Jdaz7ZMfV20wTQcyz',
+  transactTime: 1514591139735,
+  price: '0.00000000',
+  origQty: '257.00000000',
+  executedQty: '257.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'CNDBTC'
+{ symbol: 'POEBTC',
+  orderId: 1351420,
+  clientOrderId: 'V1EpVyoZWcQEC8odGADGMt',
+  transactTime: 1514591139886,
+  price: '0.00000000',
+  origQty: '320.00000000',
+  executedQty: '320.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'POEBTC'
+creating buy order with the following paramaters: QSPBTC 80
+{ symbol: 'BTSBTC',
+  orderId: 2828702,
+  clientOrderId: '00kwCITfHf8qMdYuomV7qc',
+  transactTime: 1514591140111,
+  price: '0.00000000',
+  origQty: '35.00000000',
+  executedQty: '35.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'BTSBTC'
+Quantity does not match a legal step
+BCDBTC failed
+creating buy order with the following paramaters: TNBBTC 211
+{ symbol: 'FUELBTC',
+  orderId: 1578055,
+  clientOrderId: 'EOA6mvW64yNbh7BzLecxGD',
+  transactTime: 1514591140335,
+  price: '0.00000000',
+  origQty: '133.00000000',
+  executedQty: '133.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'FUELBTC'
+{ symbol: 'QSPBTC',
+  orderId: 2674121,
+  clientOrderId: 'NKtPkoZu5hZdsflWXVlWbf',
+  transactTime: 1514591140443,
+  price: '0.00000000',
+  origQty: '80.00000000',
+  executedQty: '80.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'QSPBTC'
+creating buy order with the following paramaters: ADABTC 36
+creating buy order with the following paramaters: LENDBTC 89
+{ symbol: 'TNBBTC',
+  orderId: 656368,
+  clientOrderId: '3RdAET3XCA6g9YJmjmkBYO',
+  transactTime: 1514591140902,
+  price: '0.00000000',
+  origQty: '211.00000000',
+  executedQty: '211.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'TNBBTC'
+creating buy order with the following paramaters: XLMBTC 61
+{ symbol: 'ADABTC',
+  orderId: 3476971,
+  clientOrderId: 'EPXljs9TTIcC37QWMIVZK4',
+  transactTime: 1514591141106,
+  price: '0.00000000',
+  origQty: '36.00000000',
+  executedQty: '36.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'ADABTC'
+creating buy order with the following paramaters: CMTBTC 84
+{ symbol: 'LENDBTC',
+  orderId: 1530541,
+  clientOrderId: 'kojJYsBVxpLSxMwHRz7UEG',
+  transactTime: 1514591141263,
+  price: '0.00000000',
+  origQty: '89.00000000',
+  executedQty: '89.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'LENDBTC'
+creating buy order with the following paramaters: WABIBTC 10
+{ symbol: 'XLMBTC',
+  orderId: 2192394,
+  clientOrderId: 'eLWvuor0WQa9aEhTaqfKkb',
+  transactTime: 1514591141526,
+  price: '0.00000000',
+  origQty: '61.00000000',
+  executedQty: '61.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'XLMBTC'
+creating buy order with the following paramaters: GTOBTC 61
+{ symbol: 'CMTBTC',
+  orderId: 1169301,
+  clientOrderId: '52PCaInVypevyUReKqQcRO',
+  transactTime: 1514591141716,
+  price: '0.00000000',
+  origQty: '84.00000000',
+  executedQty: '84.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'CMTBTC'
+creating buy order with the following paramaters: OSTBTC 68
+{ symbol: 'WABIBTC',
+  orderId: 1319050,
+  clientOrderId: 'CWkA4vFChp0UQF0FSYeyIQ',
+  transactTime: 1514591141866,
+  price: '0.00000000',
+  origQty: '10.00000000',
+  executedQty: '10.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'WABIBTC'
+creating buy order with the following paramaters: ELFBTC 19
+{ symbol: 'GTOBTC',
+  orderId: 630688,
+  clientOrderId: 'pA2wTLVyQsRM0cd2GSoRRD',
+  transactTime: 1514591142096,
+  price: '0.00000000',
+  origQty: '61.00000000',
+  executedQty: '61.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'GTOBTC'
+creating buy order with the following paramaters: WINGSBTC 16
+creating buy order with the following paramaters: BRDBTC 11
+{ symbol: 'OSTBTC',
+  orderId: 425106,
+  clientOrderId: 'bt7zMzy4bPxSxHN7zu872R',
+  transactTime: 1514591142331,
+  price: '0.00000000',
+  origQty: '68.00000000',
+  executedQty: '68.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'OSTBTC'
+{ symbol: 'ELFBTC',
+  orderId: 494773,
+  clientOrderId: 'uTXHiIBdUhqrWYYoU6ssKS',
+  transactTime: 1514591142505,
+  price: '0.00000000',
+  origQty: '19.00000000',
+  executedQty: '19.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'ELFBTC'
+Quantity does not match a legal step
+NAVBTC failed
+Min nominal value not met
+LUNBTC failed
+{ symbol: 'WINGSBTC',
+  orderId: 119433,
+  clientOrderId: 'cN7LCZFwYVxsmK0JpUn6de',
+  transactTime: 1514591142724,
+  price: '0.00000000',
+  origQty: '16.00000000',
+  executedQty: '16.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'WINGSBTC'
+{ symbol: 'BRDBTC',
+  orderId: 532110,
+  clientOrderId: '2AOM9VNMchHS7vImvE46Zu',
+  transactTime: 1514591142926,
+  price: '0.00000000',
+  origQty: '11.00000000',
+  executedQty: '11.00000000',
+  status: 'FILLED',
+  timeInForce: 'GTC',
+  type: 'MARKET',
+  side: 'BUY' } 'BRDBTC'
+All buy orders have resolved
