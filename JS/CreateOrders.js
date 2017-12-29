@@ -9,7 +9,7 @@ binance.options({
   recvWindow: 60000
 });
 
-function buy(ticker, quantity, price) {
+function buy(ticker, quantity) {
   if (quantity === 0) {
     console.log(
       'Not creating order with quantity 0',
@@ -24,11 +24,10 @@ function buy(ticker, quantity, price) {
     console.log(
       'creating buy order with the following paramaters:',
       ticker,
-      quantity,
-      price
+      quantity
     );
     return new Promise(function(resolve, reject) {
-      binance.buy(ticker, quantity, price, {}, function(response) {
+      binance.marketBuy(ticker, quantity, function(response) {
         console.log(response, ticker);
         resolve(response);
         // todo: handle responses
@@ -37,7 +36,7 @@ function buy(ticker, quantity, price) {
   }
 }
 
-function sell(ticker, quantity, price) {
+function sell(ticker, quantity) {
   if (quantity === 0) {
     console.log(
       'Not creating order with quantity 0',
@@ -52,8 +51,7 @@ function sell(ticker, quantity, price) {
     console.log(
       'creating sell order with the following paramaters:',
       ticker,
-      quantity,
-      price
+      quantity
     );
     return new Promise(function(resolve, reject) {
       // binance.sell(ticker, quantity, price, {}, function(response) {

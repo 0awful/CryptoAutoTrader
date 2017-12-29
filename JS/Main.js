@@ -51,7 +51,7 @@ Promise.all(fetchArray)
                 decimals.find(item.info.LOT_SIZE.stepSize)
               );
 
-              orders.sell(item.name, quantity, item.price).then(function() {
+              orders.sell(item.name, quantity).then(function() {
                 resolve();
               });
             }, 1000 + 200 * split.high.indexOf(item));
@@ -73,7 +73,7 @@ Promise.all(fetchArray)
                 item.coins,
                 decimals.find(item.info.LOT_SIZE.stepSize)
               );
-              orders.buy(item.name, quantity, item.price).then(function() {
+              orders.buy(item.name, quantity).then(function() {
                 resolve();
               });
             }, 1000 + 200 * split.low.indexOf(item));
