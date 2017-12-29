@@ -1,5 +1,5 @@
 function normalize(balances, prices, info) {
-  console.log('normalize Called');
+  console.log('Normalize Called');
   // get the keys to the balances
   let balanceKeys = Object.keys(balances);
 
@@ -7,31 +7,39 @@ function normalize(balances, prices, info) {
   var tradables = {};
 
   for (var i = 0; i < balanceKeys.length; i++) {
-    // same here
-    let priceNode = {};
-    let infoNode = {};
+    if (balanceKeys[i] === 'BTC') {
+      let priceNode = {};
+      let infoNode = {};
+      let balanceBTC = {};
 
-    let key = '';
-    if (
-      balanceKeys[i] === 'BTC' &&
-      prices[balanceKeys[i]] &&
-      info[balanceKeys[i]]
-    ) {
-      key = 'BTC';
-      infoNode = info[key];
-      priceNode['bid'] = prices[key].bid;
-      priceNode['ask'] = ask[key].ask;
+      let key = 'BTC';
+      infoNode = {};
+      priceNode['bid'] = '';
+      priceNode['ask'] = '';
+      balanceBTC = {
+        bid: balances[key].available,
+        ask: balances[key].available
+      };
+
+      let node = {
+        balance: balances[balanceKeys[i]],
+        balanceBTC: balanceBTC,
+        price: priceNode,
+        info: infoNode
+      };
+
+      tradables[key] = node;
     } else if (prices[balanceKeys[i] + 'BTC'] && info[balanceKeys[i] + 'BTC']) {
-      key = balanceKeys[i] + 'BTC';
+      let priceNode = {};
+      let infoNode = {};
+      let balanceBTC = {};
+
+      let key = balanceKeys[i] + 'BTC';
       infoNode = info[key];
       priceNode['bid'] = prices[key].bid;
       priceNode['ask'] = prices[key].ask;
-    } else {
-      continue;
-    }
 
-    if (priceNode && infoNode) {
-      let balanceBTC = {
+      balanceBTC = {
         bid: balances[balanceKeys[i]].available * priceNode.bid,
         ask: balances[balanceKeys[i]].available * priceNode.ask
       };
@@ -46,6 +54,7 @@ function normalize(balances, prices, info) {
       tradables[key] = node;
     }
   }
+
   return tradables;
 }
 

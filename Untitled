@@ -1,0 +1,2031 @@
+{
+  "high": [
+    { "name": "BTC", "coins": null, "price": "", "info": {} },
+    {
+      "name": "LTCBTC",
+      "coins": 0.0007137230155555342,
+      "price": "0.01897600",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "100000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "ETHBTC",
+      "coins": 0.00088822008566394,
+      "price": "0.04859900",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.00100000",
+          "maxQty": "100000.00000000",
+          "stepSize": "0.00100000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "QTUMBTC",
+      "coins": 0.008273787080769564,
+      "price": "0.00314700",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "10000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "BCCBTC",
+      "coins": 0.0009707309616447119,
+      "price": "0.18560200",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.00100000",
+          "maxQty": "100000.00000000",
+          "stepSize": "0.00100000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "ZECBTC",
+      "coins": 0.0008534756019738859,
+      "price": "0.03707500",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.00100000",
+          "maxQty": "10000000.00000000",
+          "stepSize": "0.00100000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "DGDBTC",
+      "coins": 0.0004604834584548433,
+      "price": "0.01006900",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.00100000",
+          "maxQty": "10000000.00000000",
+          "stepSize": "0.00100000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "DASHBTC",
+      "coins": 0.0009335584739020794,
+      "price": "0.08176200",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.00100000",
+          "maxQty": "10000000.00000000",
+          "stepSize": "0.00100000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "BTGBTC",
+      "coins": 0.0007124349130899274,
+      "price": "0.01889100",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "10000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "XMRBTC",
+      "coins": 0.0007792607859886963,
+      "price": "0.02461000",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.00100000",
+          "maxQty": "10000000.00000000",
+          "stepSize": "0.00100000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    }
+  ],
+  "low": [
+    {
+      "name": "NEOBTC",
+      "coins": 0.00025026284391672796,
+      "price": "0.00434500",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "100000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "BNBBTC",
+      "coins": 0.016758217653978967,
+      "price": "0.00032224",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "100000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "EOSBTC",
+      "coins": 0.008775442444194589,
+      "price": "0.00061207",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "SNTBTC",
+      "coins": 0.5279573570416926,
+      "price": "0.00001027",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "BNTBTC",
+      "coins": 0.01942693047023071,
+      "price": "0.00027820",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "GASBTC",
+      "coins": 0.0027132532660891677,
+      "price": "0.00193100",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "100000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "HSRBTC",
+      "coins": 0.0017161960284090914,
+      "price": "0.00200000",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "10000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "OAXBTC",
+      "coins": 0.14195768570574163,
+      "price": "0.00003800",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "DNTBTC",
+      "coins": 0.8171313338581601,
+      "price": "0.00000664",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "MCOBTC",
+      "coins": 0.004269051461511331,
+      "price": "0.00103100",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "10000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "ICNBTC",
+      "coins": 0.03715149980208008,
+      "price": "0.00014239",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "ZRXBTC",
+      "coins": 0.15057343908532875,
+      "price": "0.00003584",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "OMGBTC",
+      "coins": 0.004571684160839162,
+      "price": "0.00097500",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "10000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "WTCBTC",
+      "coins": 0.005112052269147371,
+      "price": "0.00088880",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "YOYOBTC",
+      "coins": 0.2343722728257445,
+      "price": "0.00002308",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "LRCBTC",
+      "coins": 0.2487651520376176,
+      "price": "0.00002175",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "TRXBTC",
+      "coins": 2.0184766010476514,
+      "price": "0.00000269",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "SNGLSBTC",
+      "coins": 0.49647180007492514,
+      "price": "0.00001092",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "STRATBTC",
+      "coins": 0.006451840955854845,
+      "price": "0.00072900",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "10000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "BQXBTC",
+      "coins": 0.024694787895270943,
+      "price": "0.00021142",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "FUNBTC",
+      "coins": 1.5164279488318948,
+      "price": "0.00000358",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "KNCBTC",
+      "coins": 0.0379949899994127,
+      "price": "0.00013931",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "CDTBTC",
+      "coins": 0.864030582295889,
+      "price": "0.00000628",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "XVGBTC",
+      "coins": 0.5567404575788688,
+      "price": "0.00000974",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "IOTABTC",
+      "coins": 0.01912593382045859,
+      "price": "0.00026992",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "SNMBTC",
+      "coins": 0.2135494493214132,
+      "price": "0.00002532",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "LINKBTC",
+      "coins": 0.145821406941032,
+      "price": "0.00003700",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "TNTBTC",
+      "coins": 0.6755120867768597,
+      "price": "0.00000803",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "CTRBTC",
+      "coins": 0.04935121009192865,
+      "price": "0.00010789",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "MDABTC",
+      "coins": 0.03807071387239775,
+      "price": "0.00013904",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "MTLBTC",
+      "coins": 0.008317996666926557,
+      "price": "0.00058300",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "10000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "SALTBTC",
+      "coins": 0.007230897055785125,
+      "price": "0.00066000",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "10000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "NULSBTC",
+      "coins": 0.0802745669781296,
+      "price": "0.00006684",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "SUBBTC",
+      "coins": 0.13273687978380558,
+      "price": "0.00004062",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "MTHBTC",
+      "coins": 0.5144072160169053,
+      "price": "0.00001054",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "ADXBTC",
+      "coins": 0.043921789934823305,
+      "price": "0.00012093",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "ETCBTC",
+      "coins": 0.0015745933918569588,
+      "price": "0.00211000",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "10000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "ENGBTC",
+      "coins": 0.07682796643005993,
+      "price": "0.00006980",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "ASTBTC",
+      "coins": 0.17474869158260053,
+      "price": "0.00003091",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "BATBTC",
+      "coins": 0.23235017426194943,
+      "price": "0.00002328",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "POWRBTC",
+      "coins": 0.08284614997404204,
+      "price": "0.00006479",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "REQBTC",
+      "coins": 0.2915359212072258,
+      "price": "0.00001857",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "EVXBTC",
+      "coins": 0.05311288033487581,
+      "price": "0.00010039",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "VIBBTC",
+      "coins": 0.17549097000708846,
+      "price": "0.00003078",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "ENJBTC",
+      "coins": 0.6910244658367112,
+      "price": "0.00000785",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "VENBTC",
+      "coins": 0.059106130303365596,
+      "price": "0.00009038",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "ARKBTC",
+      "coins": 0.011566255047000191,
+      "price": "0.00043230",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000010",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000010"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "XRPBTC",
+      "coins": 0.07153828357348355,
+      "price": "0.00007489",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "MODBTC",
+      "coins": 0.029314687817065754,
+      "price": "0.00017920",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000010",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000010"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "STORJBTC",
+      "coins": 0.061034852767136945,
+      "price": "0.00008757",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "KMDBTC",
+      "coins": 0.006061474141190931,
+      "price": "0.00076930",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000010",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000010"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "RCNBTC",
+      "coins": 0.39932365930863545,
+      "price": "0.00001357",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "DLTBTC",
+      "coins": 0.2348832851419098,
+      "price": "0.00002303",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "MANABTC",
+      "coins": 0.8612844534632036,
+      "price": "0.00000630",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "PPTBTC",
+      "coins": 0.001036892409755599,
+      "price": "0.00266700",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000010",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000010"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "RDNBTC",
+      "coins": 0.02115132954174761,
+      "price": "0.00024524",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "GXSBTC",
+      "coins": 0.014174279488318947,
+      "price": "0.00035800",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000010",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000010"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "AMBBTC",
+      "coins": 0.2487651520376176,
+      "price": "0.00002175",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "ARNBTC",
+      "coins": 0.1371584958499029,
+      "price": "0.00003932",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "BCPTBTC",
+      "coins": 0.24326223277060174,
+      "price": "0.00002224",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "CNDBTC",
+      "coins": 1.5555593286011984,
+      "price": "0.00000349",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "GVTBTC",
+      "coins": 0.010081991139979974,
+      "price": "0.00049020",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000010",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000010"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "POEBTC",
+      "coins": 2.5139963226010105,
+      "price": "0.00000216",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "BTSBTC",
+      "coins": 0.1510676322808171,
+      "price": "0.00003596",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "FUELBTC",
+      "coins": 0.819365317770465,
+      "price": "0.00000663",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "XZCBTC",
+      "coins": 0.0010400903803978905,
+      "price": "0.00522300",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "10000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "QSPBTC",
+      "coins": 0.509605258613338,
+      "price": "0.00001066",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "LSKBTC",
+      "coins": 0.0038711551748152094,
+      "price": "0.00140330",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000010",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000010"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "BCDBTC",
+      "coins": 0.0016303697649514355,
+      "price": "0.00333200",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000100",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000100"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.00100000",
+          "maxQty": "10000000.00000000",
+          "stepSize": "0.00100000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "TNBBTC",
+      "coins": 0.7907412018658199,
+      "price": "0.00000687",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "ADABTC",
+      "coins": 0.18421132779987057,
+      "price": "0.00002949",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "LENDBTC",
+      "coins": 1.4258246868289195,
+      "price": "0.00000381",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "XLMBTC",
+      "coins": 0.3473396455766102,
+      "price": "0.00001564",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "CMTBTC",
+      "coins": 0.4214423628253051,
+      "price": "0.00001289",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "WAVESBTC",
+      "coins": 0.00594678933422899,
+      "price": "0.00091350",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000010",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000010"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "WABIBTC",
+      "coins": 0.0488085539696153,
+      "price": "0.00011130",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "GTOBTC",
+      "coins": 0.3012973963848133,
+      "price": "0.00001803",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "ICXBTC",
+      "coins": 0.022291309219606825,
+      "price": "0.00024370",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000010",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000010"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "0.01000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "0.01000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    },
+    {
+      "name": "OSTBTC",
+      "coins": 0.33741565570299276,
+      "price": "0.00001610",
+      "info": {
+        "PRICE_FILTER": {
+          "filterType": "PRICE_FILTER",
+          "minPrice": "0.00000001",
+          "maxPrice": "100000.00000000",
+          "tickSize": "0.00000001"
+        },
+        "LOT_SIZE": {
+          "filterType": "LOT_SIZE",
+          "minQty": "1.00000000",
+          "maxQty": "90000000.00000000",
+          "stepSize": "1.00000000"
+        },
+        "MIN_NOTIONAL": {
+          "filterType": "MIN_NOTIONAL",
+          "minNotional": "0.00100000"
+        }
+      }
+    }
+  ]
+}

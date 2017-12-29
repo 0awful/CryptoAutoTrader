@@ -7,8 +7,10 @@ const testData = JSON.parse(
 
 let testResult = average.average(testData);
 
+let desiredAverage = 0.011241326410123598;
+
 // This is the proper average to be derived from the test data
-if (testResult === 0.000005432392056818183) {
+if (testResult === desiredAverage) {
   console.log('AverageData is passing tests');
 } else {
   console.log('AverageData is failing tests');

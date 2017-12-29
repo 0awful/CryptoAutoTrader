@@ -12,7 +12,7 @@ const expectedResult = JSON.parse(
 let result = splitCoins.split(input, 0.000005432392056818183);
 
 // This should be uncommented whenever you need to update the results for the next test
-//console.log(JSON.stringify(result));
+console.log(JSON.stringify(result));
 
 if (JSON.stringify(result) === JSON.stringify(expectedResult)) {
   console.log('SplitCoins is passing its tests');

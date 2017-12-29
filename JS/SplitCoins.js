@@ -1,5 +1,3 @@
-//TODO: FUCK CANCER SHOUT OUT TO BOOSIE
-
 function splitCoins(data, average) {
   let keys = Object.keys(data);
 
@@ -9,6 +7,10 @@ function splitCoins(data, average) {
   };
 
   for (var i = 0; i < keys.length; i++) {
+    if (keys[i] === 'BTC') {
+      continue;
+    }
+
     if (data[keys[i]].balanceBTC.bid > average) {
       let overage = data[keys[i]].balanceBTC.bid - average;
       let priceToSell = data[keys[i]].price.bid;

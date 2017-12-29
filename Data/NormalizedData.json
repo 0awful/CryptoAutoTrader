@@ -1,4 +1,10 @@
 {
+  "BTC": {
+    "balance": { "available": "1.0000000", "onOrder": "0.00000000" },
+    "balanceBTC": { "bid": "1.0000000", "ask": "1.0000000" },
+    "price": { "bid": "", "ask": "" },
+    "info": {}
+  },
   "LTCBTC": {
     "balance": { "available": "0.00100000", "onOrder": "0.00000000" },
     "balanceBTC": { "bid": 0.000018976, "ask": 0.000019013 },
@@ -2039,3 +2045,4 @@
     }
   }
 }
+
