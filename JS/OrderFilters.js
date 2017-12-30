@@ -18,19 +18,4 @@ function lotSizeFilter(data, quantity) {
   }
 }
 
-// "MIN_NOTIONAL": {
-//   "filterType": "MIN_NOTIONAL",
-//   "minNotional": "0.00100000"
-// }
-
-function minNotionalFilter(data, quantity, price) {
-  if (quantity * price < data.minNotional) {
-    console.log('minNotional value not met');
-    return false;
-  } else {
-    return true;
-  }
-}
-
 module.exports.lotSize = lotSizeFilter;
-module.exports.minNotional = minNotionalFilter;
