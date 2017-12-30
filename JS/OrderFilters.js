@@ -7,7 +7,10 @@
 // },
 
 function lotSizeFilter(data, quantity) {
-  if (Math.round(quantity % Number(data.stepSize)) !== 0) {
+  if (quantity < Number(data.minQty)) {
+    console.log('Too small of quantity');
+    return false;
+  } else if (Math.round(quantity % Number(data.stepSize)) !== 0) {
     console.log('Quantity does not match a legal step');
     return false;
   } else {
@@ -20,14 +23,14 @@ function lotSizeFilter(data, quantity) {
 //   "minNotional": "0.00100000"
 // }
 
-// function minNotionalFilter(data, quantity, price) {
-//   if (quantity * price < data.minNotional) {
-//     console.log('minNotional value not met');
-//     return false;
-//   } else {
-//     return true;
-//   }
-// }
+function minNotionalFilter(data, quantity, price) {
+  if (quantity * price < data.minNotional) {
+    console.log('minNotional value not met');
+    return false;
+  } else {
+    return true;
+  }
+}
 
 module.exports.lotSize = lotSizeFilter;
-// module.exports.minNotional = minNotionalFilter;
+module.exports.minNotional = minNotionalFilter;
