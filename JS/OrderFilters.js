@@ -10,9 +10,6 @@ function lotSizeFilter(data, quantity) {
   if (quantity < data.minQty) {
     console.log('Too small of quantity');
     return false;
-  } else if (quantity > data.maxQty) {
-    console.log('Too small of quntity');
-    return false;
   } else if (Math.round(quantity % Number(data.stepSize)) !== 0) {
     console.log('Quantity does not match a legal step');
     return false;
