@@ -53,14 +53,7 @@ function orderLoop(timeBetweenLoops) {
                   Math.abs(decimals.find(item.info.LOT_SIZE.stepSize))
                 );
 
-                if (
-                  filters.lotSize(item.info.LOT_SIZE, quantity) &&
-                  filters.minNotional(
-                    item.info.MIN_NOTIONAL,
-                    quantity,
-                    item.price
-                  )
-                ) {
+                if (filters.lotSize(item.info.LOT_SIZE, quantity)) {
                   orders.sell(item.name, quantity).then(function() {
                     resolve();
                   });
@@ -87,14 +80,7 @@ function orderLoop(timeBetweenLoops) {
                   Math.abs(decimals.find(item.info.LOT_SIZE.stepSize))
                 );
 
-                if (
-                  filters.lotSize(item.info.LOT_SIZE, quantity) &&
-                  filters.minNotional(
-                    item.info.MIN_NOTIONAL,
-                    quantity,
-                    item.price
-                  )
-                ) {
+                if (filters.lotSize(item.info.LOT_SIZE, quantity)) {
                   orders.buy(item.name, quantity).then(function() {
                     resolve();
                   });
