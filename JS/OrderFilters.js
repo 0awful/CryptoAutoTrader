@@ -13,7 +13,7 @@ function lotSizeFilter(data, quantity) {
   } else if (quantity > data.maxQty) {
     console.log('Too small of quntity');
     return false;
-  } else if (quantity % data.stepSize !== 0) {
+  } else if (Math.round(quantity % Number(data.stepSize)) !== 0) {
     console.log('Quantity does not match a legal step');
     return false;
   } else {
@@ -28,7 +28,7 @@ function lotSizeFilter(data, quantity) {
 
 function minNotionalFilter(data, quantity, price) {
   if (quantity * price < data.minNotional) {
-    console.log('Min nominal value not met');
+    console.log('minNotional value not met');
     return false;
   } else {
     return true;
