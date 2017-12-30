@@ -120,7 +120,7 @@ function orderLoop(timeBetweenLoops) {
       console.log('restarting in', waitTime / 60000, 'minutes');
       setTimeout(function() {
         console.log('Restarting cycle');
-        orderLoop();
+        orderLoop(timeBetweenLoops);
       }, waitTime);
     });
 }
