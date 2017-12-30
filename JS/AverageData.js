@@ -6,8 +6,9 @@ function average(data) {
   for (var i = 0; i < keys.length; i++) {
     average += Number(data[keys[i]].balanceBTC.bid);
   }
-
+  console.log('Total balance', average);
   average = average / keys.length;
+  console.log('Average', average);
   return average;
 }
 
