@@ -5,8 +5,7 @@ let binanceInfo = apiinfo.apiinfo.Binance;
 
 binance.options({
   APIKEY: binanceInfo.apikey,
-  APISECRET: binanceInfo.apisecret,
-  recvWindow: 60000
+  APISECRET: binanceInfo.apisecret
 });
 
 function buy(ticker, quantity) {
@@ -30,7 +29,7 @@ function buy(ticker, quantity) {
       binance.marketBuy(ticker, quantity, function(response) {
         console.log(response, ticker);
         resolve(response);
-        // todo: handle responses
+        // TODO: handle responses
       });
     });
   }
@@ -54,15 +53,10 @@ function sell(ticker, quantity) {
       quantity
     );
     return new Promise(function(resolve, reject) {
-      // binance.sell(ticker, quantity, price, {}, function(response) {
-      //   console.log(response, ticker);
-      //   resolve(response);
-      //   // todo: handle responses
-      // });
       binance.marketSell(ticker, quantity, function(response) {
         console.log(response, ticker);
         resolve(response);
-        // todo: handle responses
+        // TODO: handle responses
       });
     });
   }

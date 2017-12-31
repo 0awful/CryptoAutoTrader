@@ -9,10 +9,10 @@ binance.options({
 });
 
 function fetchPrices() {
-  console.log('fetch prices called');
+  console.log('Fetch Prices called');
   return new Promise(function(resolve, reject) {
     binance.bookTickers(function(ticker) {
-      console.log('fetch prices returned');
+      console.log('Fetch Prices returned');
       resolve(ticker);
     });
   });
