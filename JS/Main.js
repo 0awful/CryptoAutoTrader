@@ -9,7 +9,6 @@ const splitCoins = require('./SplitCoins');
 const orders = require('./CreateOrders');
 const decimals = require('./FindDecimals');
 const filters = require('./OrderFilters');
-const cleanup = require('./Cleanup');
 
 function orderLoop(timeBetweenLoops) {
   let walletBalances;
