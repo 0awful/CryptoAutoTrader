@@ -98,16 +98,14 @@ function orderLoop(timeBetweenLoops) {
       });
     })
     .then(function() {
-      cleanup.cleanup();
-
       // this represents running every 30 minutes
-      let waitTime = timeBetweenLoops;
+      timeBetweenLoops;
 
-      console.log('restarting in', waitTime / 60000, 'minutes');
+      console.log('restarting in', timeBetweenLoops / 60000, 'minutes');
       setTimeout(function() {
         console.log('Restarting cycle');
         orderLoop(timeBetweenLoops);
-      }, waitTime);
+      }, timeBetweenLoops);
     });
 }
 
