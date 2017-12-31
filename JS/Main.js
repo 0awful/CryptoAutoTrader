@@ -7,7 +7,6 @@ const normalize = require('./Normalize');
 const average = require('./AverageData');
 const splitCoins = require('./SplitCoins');
 const orders = require('./CreateOrders');
-const round = require('./Round');
 const decimals = require('./FindDecimals');
 const filters = require('./OrderFilters');
 const cleanup = require('./Cleanup');
