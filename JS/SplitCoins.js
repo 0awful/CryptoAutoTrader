@@ -12,7 +12,7 @@ This subset will not inherently contain all coins
 function splitCoins(data, average) {
   // this is used to interate through the normalized data
   let keys = Object.keys(data);
-
+  let skipped = 0;
   // this will later be returned
   let splitCoins = {
     high: [],
@@ -22,11 +22,12 @@ function splitCoins(data, average) {
   for (var i = 0; i < keys.length; i++) {
     // you cannot market buy or sell BTC so we do not acknowledge it here
     if (keys[i] === 'BTC') {
+      skipped += 1;
       continue;
     }
 
     // anything that passes this call will be sold
-    if (data[keys[i]].balanceBTC.bid * 0.999 > average) {
+    if (Number(data[keys[i]].balanceBTC.bid * 0.999) > average) {
       let overage = data[keys[i]].balanceBTC.bid - average;
       let priceToSell = data[keys[i]].price.bid;
       let coinsToSell = overage / priceToSell;
@@ -39,9 +40,9 @@ function splitCoins(data, average) {
       };
 
       splitCoins.high.push(node);
-    } else if (data[keys[i]].balanceBTC.ask * 1.001 < average) {
+    } else if (Number(data[keys[i]].balanceBTC.ask) * 1.001 < average) {
       let shortage = average - data[keys[i]].balanceBTC.ask;
-      let priceToBuy = data[keys[i]].balanceBTC.ask;
+      let priceToBuy = data[keys[i]].price.ask;
       let coinsToBuy = shortage / priceToBuy;
 
       let node = {
@@ -53,10 +54,12 @@ function splitCoins(data, average) {
 
       splitCoins.low.push(node);
     } else {
+      skipped += 1;
       continue;
     }
   }
-
+  console.log('We recieved', keys.length, 'keys');
+  console.log('We passed on', skipped, 'items');
   return splitCoins;
 }
 
