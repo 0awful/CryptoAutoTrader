@@ -1,4 +1,4 @@
-// used in determining when to round when inputting prices. If they every have a non-one step size this breaks entirely. Should be refactored
+// used in determining when to round when inputted prices. If they every have a non-one step size this breaks entirely. Should be refactored
 
 function findDecimals(x) {
   let decimals = 0;
