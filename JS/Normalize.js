@@ -7,6 +7,9 @@ function normalize(balances, prices, info) {
   var tradables = {};
 
   for (var i = 0; i < balanceKeys.length; i++) {
+    if (balanceKeys[i] == '123' || balanceKeys[i] == '456') {
+      continue;
+    }
     if (balanceKeys[i] === 'BTC') {
       let priceNode = {};
       let infoNode = {};
