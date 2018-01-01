@@ -10,6 +10,8 @@ const orders = require('./CreateOrders');
 const decimals = require('./FindDecimals');
 const filters = require('./OrderFilters');
 
+let loops = 0;
+
 function orderLoop(timeBetweenLoops) {
   let walletBalances;
   let walletPrices;
@@ -96,10 +98,9 @@ function orderLoop(timeBetweenLoops) {
       });
     })
     .then(function() {
-      // this represents running every 30 minutes
-      timeBetweenLoops;
-
+      loops += 1;
       console.log('restarting in', timeBetweenLoops / 60000, 'minutes');
+      console.log('loops completed:', loops);
       setTimeout(function() {
         console.log('Restarting cycle');
         orderLoop(timeBetweenLoops);
@@ -107,4 +108,6 @@ function orderLoop(timeBetweenLoops) {
     });
 }
 
-orderLoop(1800000);
+orderLoop(1200000);
+module.exports.orderLoop = orderLoop;
+
