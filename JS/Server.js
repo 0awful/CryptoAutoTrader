@@ -5,7 +5,7 @@ var http = require('http'),
   host = 'localhost',
   fs = require('fs'),
   index = fs.readFileSync('../index.html');
-ENV = 'test';
+ENV = 'main';
 function handleHTTP(req, res) {
   console.log('request starting ');
   if (req.method === 'GET') {
@@ -24,7 +24,9 @@ function handleHTTP(req, res) {
 }
 
 // in miliseconds
-let timeout = 900000;
+
+let timeInMinutes = 30;
+let timeout = timeInMinutes * 60000;
 console.log('server starting');
 httpserv.listen(port, host);
 
