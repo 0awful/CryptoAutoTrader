@@ -5,6 +5,9 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "node-binance-api": "^0.2.11"
+    "firebase": "^4.8.1",
+    "node-binance-api": "^0.2.11",
+    "node-static": "^0.7.10",
+    "winston": "^3.0.0-rc1"
   }
 }
