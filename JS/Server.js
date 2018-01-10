@@ -10,7 +10,7 @@ function handleHTTP(req, res) {
   console.log('request starting ');
   if (req.method === 'GET') {
     console.log('found get request', req.url);
-    if (req.url == '/index.html' || req.url == '/' || req.url == '/index') {
+    if (req.url == '/') {
       res.writeHead(200, { 'Content-type': 'text/html' });
       res.end(index);
     } else {
