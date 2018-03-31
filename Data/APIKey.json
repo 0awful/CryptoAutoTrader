@@ -1,8 +1,6 @@
 {
   "Binance": {
-    "apikey":
-      "ofVTc0iMdNO18rVgMk3KjdOhVdEVg7e2cj17A1DKCpWvNbf6Nnv2jjPxQLbSJ3JT",
-    "apisecret":
-      "BdOr83FEkgdPEP7oXA21MjdLI43v09NCWivgLxlsHBHhvsYgrnCrjM6MFDIsGzi7"
+    "apikey": "someStringReplaceThis",
+    "apisecret": "someStringReplaceThis"
   }
 }

@@ -4,8 +4,10 @@ var http = require('http'),
   port = 8006,
   host = 'localhost',
   fs = require('fs'),
-  index = fs.readFileSync('../index.html');
-ENV = 'main';
+  index = fs.readFileSync('../index.html'),
+  io = require('socket.io').listen(httpserv),
+  ENV = 'main';
+
 function handleHTTP(req, res) {
   console.log('request starting ');
   if (req.method === 'GET') {
@@ -23,9 +25,18 @@ function handleHTTP(req, res) {
   }
 }
 
-// in miliseconds
+function handleIO(socket) {
+  function disconnect() {
+    console.log('disconnect');
+  }
+
+  function fetchInfo() {}
+}
+
+io.on('connection', handleIO);
 
 let timeInMinutes = 30;
+// in miliseconds
 let timeout = timeInMinutes * 60000;
 console.log('server starting');
 httpserv.listen(port, host);
