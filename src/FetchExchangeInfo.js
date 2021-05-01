@@ -1,4 +1,4 @@
-const Binance = require('./binace');
+const { binance } = require('./binance');
 
 // TODO: refactor this to not do data manipulation.
 function fetch() {

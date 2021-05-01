@@ -1,4 +1,4 @@
-const Binance = require('./binace');
+const { binance } = require('./binance');
 
 function fetchBalances() {
   console.log('Fetch Balances called');
