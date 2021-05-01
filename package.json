@@ -8,6 +8,6 @@
     "start": "node ./index.js"
   },
   "dependencies": {
-    "node-binance-api": "^0.12.5"
+    "binance-api-node": "^0.10.41"
   }
 }
