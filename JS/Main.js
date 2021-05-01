@@ -1,4 +1,3 @@
-const fs = require('fs');
 const balances = require('./FetchBalances');
 const prices = require('./FetchPrices');
 const exchange = require('./FetchExchangeInfo');
