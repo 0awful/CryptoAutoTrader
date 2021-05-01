@@ -1,17 +1,9 @@
-const binance = require('node-binance-api');
-let apiinfo = require('./APIInfo');
-
-let binanceInfo = apiinfo.apiinfo.Binance;
-
-binance.options({
-  APIKEY: binanceInfo.apikey,
-  APISECRET: binanceInfo.apisecret
-});
+const Binance = require('./binace');
 
 function fetchBalances() {
   console.log('Fetch Balances called');
   return new Promise(function(resolve, reject) {
-    binance.balance(function(balances) {
+    Binance.balance(function(balances) {
       console.log('Fetch Balances returned');
       resolve(balances);
     });

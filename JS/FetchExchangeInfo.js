@@ -1,19 +1,11 @@
-const binance = require('node-binance-api');
-let apiinfo = require('./APIInfo');
-
-let binanceInfo = apiinfo.apiinfo.Binance;
-
-binance.options({
-  APIKEY: binanceInfo.apikey,
-  APISECRET: binanceInfo.apisecret
-});
+const Binance = require('./binace');
 
 // TODO: refactor this to not do data manipulation.
 function fetch() {
   console.log('Fetch Exchange Info called');
   let returnable = {};
   let promise = new Promise(function(resolve, reject) {
-    binance.exchangeInfo(function(response) {
+    Binance.exchangeInfo(function(response) {
       for (let i = 0; i < response.symbols.length; i++) {
         let node = response.symbols[i];
         let filters = {};

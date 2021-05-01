@@ -1,12 +1,4 @@
-const binance = require('node-binance-api');
-let apiinfo = require('./APIInfo');
-
-let binanceInfo = apiinfo.apiinfo.Binance;
-
-binance.options({
-  APIKEY: binanceInfo.apikey,
-  APISECRET: binanceInfo.apisecret
-});
+const Binance = require('./binace');
 
 function buy(ticker, quantity) {
   if (quantity === 0) {
@@ -26,7 +18,7 @@ function buy(ticker, quantity) {
       quantity
     );
     return new Promise(function(resolve, reject) {
-      binance.marketBuy(ticker, quantity, function(response) {
+      Binance.marketBuy(ticker, quantity, function(response) {
         console.log(response, ticker);
         resolve(response);
         // TODO: handle responses
