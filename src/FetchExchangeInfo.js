@@ -5,7 +5,7 @@ function fetch() {
   console.log('Fetch Exchange Info called');
   let returnable = {};
   let promise = new Promise(function(resolve, reject) {
-    Binance.exchangeInfo(function(response) {
+    binance.exchangeInfo(function(response) {
       for (let i = 0; i < response.symbols.length; i++) {
         let node = response.symbols[i];
         let filters = {};

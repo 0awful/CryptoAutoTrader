@@ -3,7 +3,7 @@ const { binance } = require('./binance');
 function fetchBalances() {
   console.log('Fetch Balances called');
   return new Promise(function(resolve, reject) {
-    Binance.balance(function(balances) {
+    binance.balance(function(balances) {
       console.log('Fetch Balances returned');
       resolve(balances);
     });

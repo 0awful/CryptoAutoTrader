@@ -18,7 +18,7 @@ function buy(ticker, quantity) {
       quantity
     );
     return new Promise(function(resolve, reject) {
-      Binance.marketBuy(ticker, quantity, function(response) {
+      binance.marketBuy(ticker, quantity, function(response) {
         console.log(response, ticker);
         resolve(response);
         // TODO: handle responses

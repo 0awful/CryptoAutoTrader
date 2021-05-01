@@ -3,7 +3,7 @@ const { binance } = require('./binance');
 function fetchPrices() {
   console.log('Fetch Prices called');
   return new Promise(function(resolve, reject) {
-    Binance.bookTickers(function(ticker) {
+    binance.bookTickers(function(ticker) {
       console.log('Fetch Prices returned');
       resolve(ticker);
     });
