@@ -8,6 +8,7 @@
     "start": "node ./index.js"
   },
   "dependencies": {
-    "binance-api-node": "^0.10.41"
+    "binance-api-node": "^0.10.41",
+    "dotenv": "^8.2.0"
   }
 }

@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const configKeys = [
     'API_KEY',
     'API_SECRET',
