@@ -1,14 +1,15 @@
-const Binance = require('binance-api-node').default;
+const ccxt = require('ccxt');
 const { API_KEY, API_SECRET, BINANCE_HTTP_URL } = require('./config');
 
 let client;
 
 const getClient = () => {
     if (!client) {
-        client = Binance({
+        client = new ccxt.binanceus({
             apiKey: API_KEY,
-            apiSecret: API_SECRET,
+            secret: API_SECRET,
             httpBase: BINANCE_HTTP_URL,
+            enableRateLimit: true
         });
     }
     return client;
