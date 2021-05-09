@@ -1,8 +1,9 @@
 const balances = require('./balances');
 const prices = require('./prices');
-const { SELL, BUY } = require('./orderDTO');
-const { createOrders } = require('./createOrders')
+const { orderTypes } = require('./orderDTO');
+const { createOrders } = require('./createOrders');
 const { isSet } = require('./utils');
+const { processOrders } = require('./processOrders');
 const fs = require('fs');
 const exchange = require('./FetchExchangeInfo');
 
@@ -49,8 +50,11 @@ const algo = async () => {
 
   const orders = createOrders(coinDictionary, average);
 
-  const sellOrders = orders.filter(({orderType}) => orderType === SELL)
+  const sellOrders = orders.filter(({ orderType }) => orderType === orderTypes.SELL);
+  const buyOrders = orders.filter(({ orderType }) => orderType === orderTypes.BUY);
 
+  console.log(await processOrders(sellOrders));
+  console.log(await processOrders(buyOrders));
   // await processOrders(sellOrders);
   // fs.writeFileSync('tooHigh.json', JSON.stringify(tooHigh));
 
