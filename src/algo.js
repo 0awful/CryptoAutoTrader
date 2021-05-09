@@ -1,9 +1,9 @@
 const balances = require('./balances');
 const prices = require('./prices');
-const { orderTypes } = require('./orderDTO');
-const { createOrders } = require('./createOrders');
+const { orderTypes } = require('./order/orderDTO');
+const { createOrders } = require('./order/createOrders');
 const { isSet } = require('./utils');
-const { processOrders } = require('./processOrders');
+const { processOrders } = require('./order/processOrders');
 
 const algo = async () => {
   let { free } = await balances.fetch();
