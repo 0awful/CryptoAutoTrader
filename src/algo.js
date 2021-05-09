@@ -1,11 +1,13 @@
 const balances = require('./balances');
 const prices = require('./prices');
+const { SELL, BUY } = require('./orderDTO');
+const { createOrders } = require('./createOrders')
+const { isSet } = require('./utils');
 const fs = require('fs');
 const exchange = require('./FetchExchangeInfo');
 
 const normalize = require('./Normalize');
 const splitCoins = require('./SplitCoins');
-const orders = require('./CreateOrders');
 const decimals = require('./FindDecimals');
 const filters = require('./OrderFilters');
 
@@ -19,11 +21,39 @@ const algo = async () => {
 
   let { free } = await balances.fetch();
 
-  const values =  Object.values(free)
-  const total = values.reduce((prev, curr) => prev + curr);
-  const average = total / values.length;
+  const price = await prices.fetch();
 
-  console.log(total, average);
+  const coinDictionary = Object
+    .keys(price)
+    .filter((coinName) => isSet(free[coinName]) && isSet(price[coinName].bid) && isSet(price[coinName].ask))
+    .reduce((prev, currentCoinName) => {
+      return {
+        ...prev,
+        [currentCoinName]: {
+          bal: free[currentCoinName],
+          ...price[currentCoinName],
+          bidBal: free[currentCoinName] * price[currentCoinName].bid || 0,
+        },
+      }
+    }, {});
+
+  const quoteCurrencyValue = Object
+    .values(coinDictionary)
+    .reduce((prev, { bidBal }) => {
+      if (typeof bidBal === 'number') return prev + bidBal;
+      return prev;
+    }, 0);
+  const average = quoteCurrencyValue / Object.values(coinDictionary).length;
+
+  console.log('AccountBalance is', quoteCurrencyValue, 'with an average of', average);
+
+  const orders = createOrders(coinDictionary, average);
+
+  const sellOrders = orders.filter(({orderType}) => orderType === SELL)
+
+  // await processOrders(sellOrders);
+  // fs.writeFileSync('tooHigh.json', JSON.stringify(tooHigh));
+
 
   // let price = await prices.fetch();
   // let exchangePromise = exchange.fetch();

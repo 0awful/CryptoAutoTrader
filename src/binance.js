@@ -9,7 +9,7 @@ const getClient = () => {
             apiKey: API_KEY,
             secret: API_SECRET,
             httpBase: BINANCE_HTTP_URL,
-            enableRateLimit: true
+            enableRateLimit: true,
         });
     }
     return client;
