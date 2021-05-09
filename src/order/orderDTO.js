@@ -1,4 +1,4 @@
-const { getClient } = require('./binance');
+const { getClient } = require('../binance');
 
 const SELL = 'SELL';
 const BUY = 'BUY';
