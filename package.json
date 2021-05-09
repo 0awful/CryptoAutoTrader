@@ -4,11 +4,12 @@
   "description": "autotrading algo",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js"
+  },
   "dependencies": {
-    "firebase": "^4.8.1",
-    "node-binance-api": "^0.2.11",
-    "node-static": "^0.7.10",
-    "socket.io": "^2.0.4",
-    "winston": "^3.0.0-rc1"
-  }
+    "ccxt": "^1.49.29",
+    "dotenv": "^8.2.0"
+  },
+  "repository": "https://github.com/imizaac/BinanceAutoTrader"
 }
