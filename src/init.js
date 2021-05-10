@@ -4,7 +4,7 @@ const init = async ({
     apiKey,
     secret,
     httpBase,
-    sandboxMode = false,
+    sandboxMode,
     enableRateLimit,
 }) => {
     await initClient({

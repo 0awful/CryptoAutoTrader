@@ -2,11 +2,11 @@ const { algo } = require('./algo');
 const { init } = require('./init');
 
 const main = async ({
-    apiKey = '',
-    secret = '',
-    httpBase = '',
-    sandboxMode,
-    enableRateLimit,
+    apiKey,
+    secret,
+    httpBase,
+    sandboxMode = false,
+    enableRateLimit = true,
 }) => {
     await init({
         apiKey,
