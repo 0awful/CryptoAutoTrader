@@ -3,7 +3,7 @@ require('dotenv').config();
 const configKeys = [
     'API_KEY',
     'API_SECRET',
-    'BINANCE_HTTP_URL',
+    'BASE_HTTP_URL',
 ];
 
 let config = {};

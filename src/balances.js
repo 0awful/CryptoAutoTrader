@@ -1,4 +1,4 @@
-const { getClient } = require('./binance');
+const { getClient } = require('./exchange');
 
 const fetch = () => {
     const binance = getClient();

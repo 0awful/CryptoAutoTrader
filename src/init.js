@@ -1,7 +1,19 @@
-const { getClient } = require('./binance');
+const { getClient, initClient } = require('./exchange');
 
-const init = async () => {
-    console.log("init called")
+const init = async ({
+    apiKey,
+    secret,
+    httpBase,
+    sandboxMode,
+    enableRateLimit,
+}) => {
+    await initClient({
+        apiKey,
+        secret,
+        httpBase,
+        sandboxMode,
+        enableRateLimit,
+    });
     const client = await getClient();
     const markets = await client.loadMarkets()
     if (!markets) {
