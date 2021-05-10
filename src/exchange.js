@@ -14,6 +14,9 @@ const initClient = ({apiKey, secret, httpBase, sandboxMode, enableRateLimit = tr
         secret,
         httpBase,
         enableRateLimit,
+        options: {
+            createMarketBuyOrderRequiresPrice: false,
+        },
     });
     client.setSandboxMode(sandboxMode);
 };
