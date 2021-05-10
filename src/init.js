@@ -1,4 +1,4 @@
-const { getClient } = require('./binance');
+const { getClient } = require('./exchange');
 
 const init = async () => {
     console.log("init called")

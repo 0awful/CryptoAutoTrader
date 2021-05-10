@@ -1,4 +1,4 @@
-const { getClient } = require('../binance');
+const { getClient } = require('../exchange');
 const { SELL, BUY } = require('./orderDTO');
 
 const processOrder = ({ orderType, symbol, amount }) => {
