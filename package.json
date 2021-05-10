@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node ./index.js",
     "prepare": "husky install",
-    "test": "echo we didnt install lul"
+    "test": "jest --passWithNoTests"
   },
   "dependencies": {
     "ccxt": "^1.49.29",
