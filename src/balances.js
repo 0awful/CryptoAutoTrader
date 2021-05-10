@@ -1,12 +1,12 @@
-const { getClient } = require('./exchange');
+const { getClient } = require("./exchange");
 
 const fetch = () => {
-    const binance = getClient();
+  const binance = getClient();
 
-    return binance.fetchBalance();
-}
+  return binance.fetchBalance();
+};
 
 // returns a promise that can be resolved for the contents of the function
 module.exports = {
-    fetch,
-}
+  fetch,
+};

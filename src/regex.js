@@ -1,5 +1,5 @@
-const USDRegex = new RegExp('\/USD\>');
+const USDRegex = new RegExp("/USD>");
 
 module.exports = {
-    USDRegex,
-}
+  USDRegex,
+};
