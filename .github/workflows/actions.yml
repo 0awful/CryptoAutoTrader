@@ -4,7 +4,11 @@
 name: Node.js CI
 
 on:
+  pull_request:
   push:
+    branches:
+      - main
+      - "releases/*"
 
 jobs:
   test:
