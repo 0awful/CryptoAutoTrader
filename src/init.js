@@ -5,12 +5,14 @@ const init = async ({
     secret,
     httpBase,
     sandboxMode = false,
+    enableRateLimit,
 }) => {
     await initClient({
         apiKey,
         secret,
         httpBase,
         sandboxMode,
+        enableRateLimit,
     });
     const client = await getClient();
     const markets = await client.loadMarkets()
