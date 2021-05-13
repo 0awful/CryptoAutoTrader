@@ -1,16 +1,9 @@
 const { getClient, initClient } = require("./exchange");
 
-const init = async ({
-  apiKey,
-  secret,
-  httpBase,
-  sandboxMode,
-  enableRateLimit,
-}) => {
+const init = async ({ apiKey, secret, sandboxMode, enableRateLimit }) => {
   await initClient({
     apiKey,
     secret,
-    httpBase,
     sandboxMode,
     enableRateLimit,
   });
