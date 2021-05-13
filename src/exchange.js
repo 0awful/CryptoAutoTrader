@@ -10,7 +10,6 @@ const getClient = () => {
 const initClient = ({
   apiKey,
   secret,
-  httpBase,
   sandboxMode,
   enableRateLimit = true,
 }) => {
@@ -18,7 +17,6 @@ const initClient = ({
   client = new ccxt.binanceus({
     apiKey,
     secret,
-    httpBase,
     enableRateLimit,
     options: {
       createMarketBuyOrderRequiresPrice: false,
