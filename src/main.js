@@ -6,6 +6,7 @@ const main = async ({
   secret,
   sandboxMode = false,
   enableRateLimit = true,
+  tolerance,
 }) => {
   await init({
     apiKey,
@@ -13,7 +14,9 @@ const main = async ({
     sandboxMode,
     enableRateLimit,
   });
-  await algo();
+  await algo({
+    tolerance,
+  });
 };
 
 module.exports = {
