@@ -1,15 +1,23 @@
 require("dotenv").config();
 
-const configKeys = ["API_KEY", "API_SECRET", "BASE_HTTP_URL"];
+const manditoryConfigKeys = ["API_KEY", "API_SECRET"];
+const optionalConfigKeys = ["TOLERANCE"];
 
 let config = {};
 
-configKeys.forEach((key) => {
+manditoryConfigKeys.forEach((key) => {
   if (process.env[key]) {
     config[key] = process.env[key];
   } else {
     console.error("could not find value for key:", key);
     process.exit(1);
+  }
+});
+optionalConfigKeys((key) => {
+  if (process.env[key]) {
+    config[key] = process.env[key];
+  } else {
+    console.error("could not find value for optional key:", key);
   }
 });
 

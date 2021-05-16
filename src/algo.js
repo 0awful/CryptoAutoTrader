@@ -5,7 +5,7 @@ const { createOrders } = require("./order/createOrders");
 const { isSet } = require("./utils");
 const { processOrders } = require("./order/processOrders");
 
-const algo = async () => {
+const algo = async ({ tolerance }) => {
   let { free } = await balances.fetch();
 
   const price = await prices.fetch();
@@ -44,7 +44,7 @@ const algo = async () => {
     average
   );
 
-  const orders = createOrders(coinDictionary, average);
+  const orders = createOrders(coinDictionary, average, tolerance);
 
   const sellOrders = orders.filter(
     ({ orderType }) => orderType === orderTypes.SELL
