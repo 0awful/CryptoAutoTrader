@@ -1,8 +1,8 @@
 const { createOrderDTO } = require("./orderDTO");
 
-const createOrders = (obj, average, tolerance) => {
+const createOrders = (obj, average) => {
   return Object.values(obj).map((values) =>
-    createOrderDTO(values, average, tolerance)
+    createOrderDTO(values, average)
   );
 };
 

@@ -10,12 +10,15 @@ const algo = async ({ tolerance }) => {
 
   const price = await prices.fetch();
 
+// console.log(price);
+
   const coinDictionary = Object.keys(price)
     .filter(
       (coinName) =>
         isSet(free[coinName]) &&
         isSet(price[coinName].bid) &&
-        isSet(price[coinName].ask)
+        isSet(price[coinName].ask) &&
+        coinName.includes('BTC')
     )
     .reduce((prev, currentCoinName) => {
       return {
@@ -27,24 +30,25 @@ const algo = async ({ tolerance }) => {
         },
       };
     }, {});
+    // console.log(coinDictionary);
 
-  const quoteCurrencyValue = Object.values(coinDictionary).reduce(
-    (prev, { bidBal }) => {
-      if (typeof bidBal === "number") return prev + bidBal;
-      return prev;
-    },
-    0
-  );
-  const average = quoteCurrencyValue / Object.values(coinDictionary).length;
+  // const quoteCurrencyValue = Object.values(coinDictionary).reduce(
+  //   (prev, { bidBal }) => {
+  //     if (typeof bidBal === "number") return prev + bidBal;
+  //     return prev;
+  //   },
+  //   0
+  // );
+  // const average = quoteCurrencyValue / Object.values(coinDictionary).length;
 
-  console.log(
-    "AccountBalance is",
-    quoteCurrencyValue,
-    "with an average of",
-    average
-  );
+  // console.log(
+  //   "AccountBalance is",
+  //   // quoteCurrencyValue,
+  //   "with an average of",
+  //   // average
+  // );
 
-  const orders = createOrders(coinDictionary, average, tolerance);
+  const orders = createOrders(coinDictionary, 360);
 
   const sellOrders = orders.filter(
     ({ orderType }) => orderType === orderTypes.SELL
@@ -53,6 +57,7 @@ const algo = async ({ tolerance }) => {
     ({ orderType }) => orderType === orderTypes.BUY
   );
 
+  console.log({ sellOrders, buyOrders })
   console.log(await processOrders(sellOrders));
   console.log(await processOrders(buyOrders));
 };
