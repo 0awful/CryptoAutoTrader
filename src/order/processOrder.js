@@ -6,11 +6,11 @@ const processOrder = ({ orderType, symbol, amount }) => {
 
   try {
     if (orderType === orderTypes.SELL)
-      return client.createMarketSellOrder(symbol, amount);
+      client.createMarketSellOrder(symbol, amount);
     if (orderType === orderTypes.BUY)
-      return client.createMarketBuyOrder(symbol, amount);
+      client.createMarketBuyOrder(symbol, amount);
   } catch (e) {
-    console.error({e, orderType, symbol, amount})
+    console.error({ e, orderType, symbol, amount });
   }
 };
 
