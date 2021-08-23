@@ -1,8 +1,5 @@
 const { main } = require("./src/main");
-const { API_KEY, API_SECRET, TOLERANCE } = require("./src/config");
+const { TOLERANCE } = require("./src/config");
+const keys = JSON.parse("./users.json");
 
-main({
-  apiKey: API_KEY,
-  secret: API_SECRET,
-  tolerance: Number(TOLERANCE),
-});
+keys.map((apiData) => main({ ...apiData, tolerance: Number(TOLERANCE) }));
