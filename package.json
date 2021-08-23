@@ -1,9 +1,9 @@
 {
-  "name": "autotrade",
+  "name": "crypto-auto-trader",
   "version": "1.0.0",
   "description": "autotrading algo",
   "main": "index.js",
-  "license": "MIT",
+  "license": "GPL3",
   "scripts": {
     "start": "node ./index.js",
     "prepare": "husky install",
