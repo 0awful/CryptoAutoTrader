@@ -1,5 +1,4 @@
 const { main } = require("./src/main");
-const { TOLERANCE } = require("./src/config");
-const keys = JSON.parse("./users.json");
+require("dotenv").config();
 
-keys.map((apiData) => main({ ...apiData, tolerance: Number(TOLERANCE) }));
+main({ apiKey: process.env.API_KEY, secret: process.env.API_SECRET });
