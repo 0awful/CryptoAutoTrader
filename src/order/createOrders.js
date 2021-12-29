@@ -1,9 +1,12 @@
 const { createOrderDTO } = require("./orderDTO");
 
-const createOrders = (obj, average, tolerance) => {
-  return Object.values(obj).map((values) =>
-    createOrderDTO(values, average, tolerance)
-  );
+const createOrders = (obj, average) => {
+  return Object.values(obj)
+    .filter((val) => !!val)
+    .map((values) => {
+      console.log(values);
+      createOrderDTO(values, average);
+    });
 };
 
 module.exports = {
