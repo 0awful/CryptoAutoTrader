@@ -44,7 +44,9 @@ const algo = async ({ tolerance }) => {
     average
   );
 
-  const orders = createOrders(coinDictionary, average, tolerance);
+  const orders = createOrders(coinDictionary, average, tolerance).filter(
+    (o) => !!o
+  );
 
   const sellOrders = orders.filter(
     ({ orderType }) => orderType === orderTypes.SELL
