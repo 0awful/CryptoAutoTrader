@@ -1,4 +1,4 @@
 # BinanceAutoTrader
 Automatically creates an index fund of cryptos
 
-Known working august 2021
+Known working december 2021
