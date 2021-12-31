@@ -1,6 +1,5 @@
 const { getClient } = require("../exchange");
 
-
 const SELL = "sell";
 const BUY = "buy";
 
