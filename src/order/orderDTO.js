@@ -9,6 +9,7 @@ const createOrderDTO = ({ symbol, bidBal, bid, ask, bal = 0 }, average) => {
   if (!bid) throw new Error("bid is required");
   if (!ask) throw new Error("ask is required");
   if (!average) throw new Error("average is required");
+
   if (!bal) return;
 
   const client = getClient();

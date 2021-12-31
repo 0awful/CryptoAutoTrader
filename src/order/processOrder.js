@@ -8,6 +8,7 @@ const processOrder = async ({ orderType, symbol, amount }) => {
 
   const client = getClient();
 
+  if (amount < client.markets[symbol]["limits"]["cost"]["min"]) return;
   try {
     await client.createOrder(symbol, "market", orderType, amount);
   } catch (error) {
